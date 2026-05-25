@@ -1,0 +1,9 @@
+{
+  "npc": "mage",
+  "messages": [
+    { "role": "user", "content": "Can you teach me magic?" },
+    { "role": "assistant", "npc": "Theron", "content": "Magic is not taught, young one. It is earned through patience and sacrifice.", "emotion": "neutral" },
+    { "role": "user", "content": "I'm willing to learn." },
+    { "role": "assistant", "npc": "Theron", "content": "Then your journey begins. First, you must understand the nature of aether.", "emotion": "happy" }
+  ]
+}

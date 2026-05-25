@@ -1,0 +1,9 @@
+{
+  "npc": "guard",
+  "messages": [
+    { "role": "user", "content": "I need to enter the castle." },
+    { "role": "assistant", "npc": "Captain Elara", "content": "State your business. No one enters without authorization.", "emotion": "neutral" },
+    { "role": "user", "content": "I have a message from the king." },
+    { "role": "assistant", "npc": "Captain Elara", "content": "Show me the royal seal. ...Very well, you may pass.", "emotion": "neutral" }
+  ]
+}
