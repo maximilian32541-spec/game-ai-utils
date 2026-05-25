@@ -1,0 +1,17 @@
+{
+  "name": "game-ai-utils",
+  "version": "0.1.0",
+  "description": "CLI utilities for testing game AI pipelines",
+  "bin": {
+    "npc-bench": "./npc-bench.js",
+    "dialogue-replay": "./dialogue-replay.js",
+    "prompt-lab": "./prompt-lab.js"
+  },
+  "scripts": {
+    "bench": "node npc-bench.js",
+    "replay": "node dialogue-replay.js",
+    "lab": "node prompt-lab.js"
+  },
+  "keywords": ["game-ai", "npc", "benchmark", "cli"],
+  "license": "MIT"
+}
