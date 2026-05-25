@@ -1,0 +1,11 @@
+{
+  "npc": "merchant",
+  "messages": [
+    { "role": "user", "content": "Hello, what do you sell?" },
+    { "role": "assistant", "npc": "Goron", "content": "Welcome, traveler! I have the finest weapons this side of the mountains.", "emotion": "happy" },
+    { "role": "user", "content": "Show me your best sword." },
+    { "role": "assistant", "npc": "Goron", "content": "Ah, you have good taste! This enchanted blade was forged in dragon fire.", "emotion": "happy" },
+    { "role": "user", "content": "How much?" },
+    { "role": "assistant", "npc": "Goron", "content": "For you? 500 gold. A bargain, I assure you!", "emotion": "neutral" }
+  ]
+}
