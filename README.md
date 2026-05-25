@@ -15,7 +15,7 @@ Measures latency, token usage, and response quality across multiple LLM provider
 ### `dialogue-replay` — Conversation Replay
 
 ```bash
-node dialogue-replay.js --file conversation.json
+node dialogue-replay.js --file conversations/sample-merchant.json
 ```
 
 Replays a saved conversation for debugging NPC behavior.
@@ -23,10 +23,16 @@ Replays a saved conversation for debugging NPC behavior.
 ### `prompt-lab` — Prompt Testing
 
 ```bash
-node prompt-lab.js --npc guard --input "What threats are there?"
+node prompt-lab.js --npc=guard
 ```
 
 Interactive prompt testing with real-time output.
+
+## Sample Conversations
+
+- `conversations/sample-merchant.json` — Merchant haggling scenario
+- `conversations/sample-guard.json` — Guard authorization check
+- `conversations/sample-mage.json` — Mage teaching scenario
 
 ## Setup
 
